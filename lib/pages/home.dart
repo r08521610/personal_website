@@ -1,6 +1,7 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:personal_website/i18n.dart';
+import 'package:personal_website/widgets/name_card.dart';
 import 'package:personal_website/widgets/toggle.dart';
 
 class Home extends StatefulWidget {
@@ -25,13 +26,7 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Padding(
-                padding: const EdgeInsets.all(10),
-                child: Text(
-                  S.of(context)!.name,
-                  style: Theme.of(context).textTheme.headline2,
-                ),
-              ),
+              NameCard(),
               Toggle<AdaptiveThemeMode>(
                 items: AdaptiveThemeMode.values,
                 initialIndex: AdaptiveThemeMode.values
