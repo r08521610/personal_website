@@ -1,5 +1,7 @@
 {
   "@@locale": "en",
 
-  "name": "Rainforest"
+  "name": "Rainforest",
+  "jobTitle": "M.S. Degree Student of NTU CAE",
+  "specialization": "Specialize in ML/DL, Frontend"
 }
