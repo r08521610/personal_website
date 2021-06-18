@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:personal_website/widgets/fitted_child_builder.dart';
 
 class ClipBDRS extends StatefulWidget {
