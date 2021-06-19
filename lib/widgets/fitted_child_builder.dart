@@ -21,7 +21,7 @@ class _FittedChildBuilderState extends State<FittedChildBuilder> {
       if (_context?.size != null) {
         setState(() {
           _height = _context!.size!.height;
-          _width = _context!.size!.width;
+          _width = _context.size!.width;
         });
       }
     });

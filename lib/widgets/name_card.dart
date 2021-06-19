@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_website/i18n.dart';
+import 'package:personal_website/generated/l10n.dart';
 import 'package:personal_website/widgets/clip_bdrs.dart';
 
 class NameCard extends StatelessWidget {
@@ -33,12 +33,12 @@ class NameCard extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10),
               child: Text(
-                S.of(context)!.name,
+                S.of(context).name,
                 style: Theme.of(context).textTheme.headline2,
               ),
             ),
-            Text(S.of(context)!.jobTitle),
-            Text(S.of(context)!.specialization),
+            Text(S.of(context).jobTitle),
+            Text(S.of(context).specialization),
           ],
         ),
       ),
